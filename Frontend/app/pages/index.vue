@@ -16,6 +16,15 @@ useSeoMeta({
   ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/docs-light.png',
   twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/docs-light.png'
 })
+
+// Проверяем авторизацию при загрузке
+onMounted(() => {
+  const authStatus = localStorage.getItem('sad_auth')
+  if (authStatus === 'true') {
+    // Если пользователь авторизован, перенаправляем на дашборд
+    navigateTo('/dashboard')
+  }
+})
 </script>
 
 <template>

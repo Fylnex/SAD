@@ -1,7 +1,7 @@
 ---
 seo:
-  title: Nuxt Docs Template
-  description: Create stunning, fast and SEO-optimized documentation sites with Nuxt UI.
+  title: SAD - Система Автозаполнения Документов
+  description: Создавайте и заполняйте документы автоматически с помощью SAD.
 ---
 
 ::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
@@ -12,10 +12,10 @@ orientation: horizontal
 :hero-background
 
 #title
-Ship Beautiful [Documentation]{.text-primary}.
+Система [Автозаполнения Документов]{.text-primary}.
 
 #description
-Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
+Создавайте, заполняйте и генерируйте документы автоматически. Удобная система для работы с шаблонами документов и персональными данными.
 
 #links
   :::u-button
@@ -24,19 +24,18 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Начать работу
   :::
 
   :::u-button
   ---
-  icon: i-simple-icons-github
+  icon: i-lucide-login
   color: neutral
   variant: outline
   size: xl
-  to: https://github.com/nuxt-ui-templates/docs
-  target: _blank
+  to: /auth
   ---
-  Use this template
+  Войти в систему
   :::
 
 #default
@@ -73,7 +72,7 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
 
 ::u-page-section{class="dark:bg-neutral-950"}
 #title
-Powered by Nuxt UI components
+Возможности системы SAD
 
 #links
   :::u-button
@@ -94,10 +93,10 @@ Powered by Nuxt UI components
   icon: i-lucide-palette
   ---
   #title
-  100+ UI Components
+  Управление данными
 
   #description
-  Access the complete Nuxt UI component library. From badges to modals, everything styled and accessible out of the box.
+  Добавляйте, редактируйте и храните персональные данные в удобном интерфейсе. Все данные защищены и доступны только вам.
   :::
 
   :::u-page-feature
@@ -105,10 +104,10 @@ Powered by Nuxt UI components
   icon: i-lucide-type
   ---
   #title
-  Beautiful Typography
+  Шаблоны документов
 
   #description
-  Pre-styled prose components with perfect visual harmony. No need for @tailwindcss/typography - get precise control over every element.
+  Создавайте и используйте готовые шаблоны документов. Поддерживаются различные форматы: договоры, заявления, справки.
   :::
 
   :::u-page-feature
@@ -116,10 +115,10 @@ Powered by Nuxt UI components
   icon: i-lucide-layers
   ---
   #title
-  Rich Prose Components
+  Автозаполнение
 
   #description
-  Accordions, cards, callouts, tabs, steps, code blocks, and more - all provided by Nuxt UI for interactive documentation.
+  Автоматическое заполнение документов данными из базы. Просто выберите шаблон и получите готовый документ.
   :::
 
   :::u-page-feature
@@ -127,10 +126,10 @@ Powered by Nuxt UI components
   icon: i-lucide-search
   ---
   #title
-  Built-in Search
+  Экспорт документов
 
   #description
-  Full-text search with ContentSearch component. No need for Algolia - instant, relevant results with keyboard shortcuts (⌘K).
+  Экспортируйте готовые документы в различных форматах: PDF, Word, печать. Удобная работа с результатами.
   :::
 
   :::u-page-feature
@@ -138,10 +137,10 @@ Powered by Nuxt UI components
   icon: i-lucide-navigation
   ---
   #title
-  Smart Navigation
+  Безопасность
 
   #description
-  Auto-generated navigation with ContentNavigation and ContentToc components. Sticky table of contents and prev/next links.
+  Все ваши данные надежно защищены. Система авторизации и шифрования обеспечивает конфиденциальность информации.
   :::
 
   :::u-page-feature
@@ -149,10 +148,10 @@ Powered by Nuxt UI components
   icon: i-lucide-moon
   ---
   #title
-  Dark Mode Ready
+  Удобный интерфейс
 
   #description
-  Automatic theme switching with smooth transitions. Respects system preferences and remembers user choice.
+  Интуитивно понятный интерфейс с поддержкой темной и светлой темы. Адаптивный дизайн для всех устройств.
   :::
 ::
 

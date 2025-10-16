@@ -51,12 +51,12 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://docs-template.nuxt.dev/',
-    title: 'Nuxt Docs Template',
-    description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
+    domain: 'https://sad-system.dev/',
+    title: 'SAD - Система Автозаполнения Документов',
+    description: 'Система для создания, заполнения и генерации документов автоматически.',
     full: {
-      title: 'Nuxt Docs Template - Full Documentation',
-      description: 'This is the full documentation for the Nuxt Docs Template.'
+      title: 'SAD - Полная документация системы',
+      description: 'Полная документация системы автозаполнения документов SAD.'
     },
     sections: [
       {
